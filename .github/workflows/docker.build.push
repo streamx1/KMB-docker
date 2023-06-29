@@ -22,4 +22,4 @@ jobs:
           context: .
           push: true
           tags: |
-            ghcr.io/streamx1/docker-image:${{ github.run_number }}
+            ghcr.io/streamx1/docker-image:1
