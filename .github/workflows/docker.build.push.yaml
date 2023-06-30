@@ -17,8 +17,8 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.KMB }}
 
-#      - name: Set up Docker Buildx
-#        uses: docker/setup-buildx-action@v2
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v2
 
 
       - name: Build and push Docker image
