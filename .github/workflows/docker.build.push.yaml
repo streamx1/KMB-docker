@@ -23,7 +23,7 @@ jobs:
         with:
           registry: ghcr.io
           username: streamx1
-          password: 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 
+          password: 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
       - name: Build and push Docker image
         uses: docker/build-push-action@v2
         with:
