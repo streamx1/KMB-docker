@@ -1,4 +1,4 @@
-name: Build and Push Docker Image
+name: Build and Push Docker Image EC2
 
 on:
   push:
@@ -22,7 +22,7 @@ jobs:
         uses: docker/setup-buildx-action@v2
 
 
-      - name: Build and push Docker image
+      - name: Build and push Docker image EC2
         uses: docker/build-push-action@v4
         with:
           context: .
