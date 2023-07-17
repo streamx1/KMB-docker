@@ -1,7 +1,7 @@
  1// Подключаем модуль http
 const http = require('http');
 
-// Создаем сервер  123C
+// Создаем сервер  1234
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/plain');
